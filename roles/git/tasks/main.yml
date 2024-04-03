@@ -1,0 +1,4 @@
+- name: Install git for Ubuntu and Centos
+  package:
+    name: "{{ git_package }}"
+    state: latest
